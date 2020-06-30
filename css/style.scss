@@ -65,3 +65,15 @@ body{
     left: 0px;
     position: absolute;
 }
+
+.modal{
+    .modal-header{
+        background-color: $background-dark;
+        .close{
+            color: $background-pale;
+        }
+    }
+    .modal-body{
+        background-color: $background-pale;
+    }
+}
